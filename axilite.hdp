@@ -1,0 +1,14 @@
+[hdl]
+axilite = $HDS_PROJECT_DIR/axilite/hdl
+[hds]
+axilite = $HDS_PROJECT_DIR/axilite/hds
+[hds_settings]
+default_library = axilite
+design_root = axilite.address_decoder()address_decoder.vhd
+version = 2
+[library_files_inclusion]
+axilite = specify
+[library_type]
+axilite = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
